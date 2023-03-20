@@ -1,0 +1,44 @@
+#templates, #formats, #build-resume, #stand-out{
+    width: 85%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 20% auto;
+}
+#build-resume{
+    margin: 0 auto 10% auto;
+}
+#why-us{
+    text-align: center;
+    font-size: 3rem;
+}
+
+#templates > div, #formats > div, #build-resume > div, #stand-out > div{
+    width: 50%;
+    height: 100%;
+}
+
+#vectors > img{
+    max-width: 100%;
+}
+
+#wordings{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#wordings > p{
+    font-size: 2.2rem;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+#highlight, #numbers{
+   color: #FF4F5A;
+   font-weight: bolder;
+}
+
+#numbers{
+    font-size: 3rem;
+}
