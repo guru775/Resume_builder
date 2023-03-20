@@ -1,0 +1,32 @@
+.navbar-body{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: clamp(0.8rem, 5vw, 1.3rem);
+    font-family: 'Montserrat', sans-serif;
+    color: #385A64;
+    border-radius: 15%;
+}
+
+/* a:hover{
+    color: #FF4F5A;
+} */
+
+#active{
+    /* border-bottom: 3px solid #FF4F5A; */
+    background-color: #FF4F5A;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #1A2E35;
+}

@@ -1,0 +1,80 @@
+.main-section{
+    width: 100%;
+}
+
+#nav-holder{
+    width: 100%;
+    height: 10vh;
+    position: sticky;
+}
+
+/* #home-section, #about-section, #contact-section, #templates-section, #testimonials-section{
+    width: 100%;
+    height: 100vh;
+} */
+
+
+#home-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#show-info > img{
+   max-width: 100%;
+   margin: 0 auto;
+   /* border-bottom-left-radius: 45%;
+   border-top-right-radius: 45%; */
+}
+
+#show-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#title-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#title-info > h1{
+    font-size: 5rem;
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title-info > p{
+    font-size: 2.5rem;
+    margin: 0 0 10% 0;
+}
+#home-section > section{
+    width: 50%;
+    height: 100%;
+}
+
+#title-1{
+    color: #FF4F5A;
+}
+
+@media only screen and (max-width:860px) {
+      #home-section{
+        height: 20vh;
+      }
+}
+
+
+#support-image{
+    width: 50%;
+    height: 7vh;
+    background-color: #FF4F5A;
+}
+
+#support-image > img{
+    max-width: 100%;
+    border-radius: 25%;
+}

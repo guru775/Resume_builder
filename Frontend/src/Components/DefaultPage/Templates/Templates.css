@@ -1,0 +1,24 @@
+#templates-show{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#docs-show{
+    width: 30%;
+    height: 30%;
+
+}
+
+#docs-show > img{
+    max-width: 100%;
+    border-radius: 15%;
+    margin: 25% auto 0 10%;
+}
+
+#auto-show{
+    width: 60%;
+    height: 100%;
+}
